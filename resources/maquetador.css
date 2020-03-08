@@ -1,0 +1,55 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+table tr:hover{
+    background-color: aqua;
+}
+
+table td:hover{
+    background-color:blue;
+}
+table th{
+    background-color: cornflowerblue;
+}
+
+form{
+    border: 1px solid;
+    width: 210px;
+    margin:10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+form input{
+    padding:3px;
+    margin: 2px;;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+form input:focus{
+    border: 2px solid;
+
+}
+
+form input[type="submit"]{
+    background-color: cornflowerblue;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+    color: #ffffff;
+    size: 2px;
+}
